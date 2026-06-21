@@ -1,0 +1,26 @@
+# ─── node / frontend ──────────────────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/public/deployments.json
+frontend/.env*.local
+frontend/.DS_Store
+frontend/next-env.d.ts
+frontend/tsconfig.tsbuildinfo
+
+# ─── foundry / contracts ─────────────────────────────────────────────
+contracts/cache/
+contracts/out/
+contracts/broadcast/
+contracts/deployments/
+
+# ─── anvil runtime ───────────────────────────────────────────────────
+.anvil.pid
+.anvil.log
+
+# ─── general ─────────────────────────────────────────────────────────
+.DS_Store
+*.swp
+*.log
+.idea/
+.vscode/
